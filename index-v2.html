@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Invitación 90 Años | Fulvio · V2</title>
+    <meta
+      name="description"
+      content="Invitación digital V2 para los 90 años de Fulvio: elegante, accesible, optimizada y lista para móvil."
+    />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%90%8E%3C/text%3E%3C/svg%3E" />
+    <link rel="manifest" href="manifest-v2.webmanifest" />
+    <meta name="theme-color" content="#1a120b" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Cinzel:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" as="image" href="assets/caballo-negro.webp" fetchpriority="high" />
+    <link rel="stylesheet" href="styles-v2.css?v=20260225d" />
+  </head>
+  <body class="is-locked">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <div class="opening-screen-v2" id="openingScreenV2" role="dialog" aria-modal="true" aria-labelledby="openingTitleV2">
+      <div class="opening-card-v2">
+        <p class="opening-kicker-v2">Invitación Especial</p>
+        <h2 id="openingTitleV2">90 Años de Fulvio</h2>
+        <p>Familia Silván Cárdenas le da la bienvenida a esta celebración.</p>
+        <button type="button" class="open-button-v2" id="openInviteButtonV2">🤠🐎 Abrir invitación</button>
+      </div>
+    </div>
+
+    <header class="hero" id="inicio">
+      <picture>
+        <source srcset="assets/caballo-negro.webp" type="image/webp" />
+        <img
+          class="hero-bg"
+          src="assets/caballo-negro.webp"
+          alt="Caballo negro en paisaje"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
+      <div class="hero-overlay"></div>
+
+      <div class="horse-track" aria-hidden="true">
+        <div class="runner r1"><img src="assets/caballo.png" alt="" /></div>
+        <div class="runner r2"><img src="assets/caballo.png" alt="" /></div>
+        <div class="runner r3"><img src="assets/caballo.png" alt="" /></div>
+      </div>
+
+      <section class="hero-content reveal-v2">
+        <p class="badge">Gran Celebración</p>
+        <h1>Fulvio · 90 Años</h1>
+        <p class="subtitle">
+          Nos honra invitarle a celebrar esta fecha tan especial en un ambiente de tradición,
+          alegría y gratitud.
+        </p>
+        <p class="hosts">Anfitriones · Familia Silván Cárdenas</p>
+        <nav class="hero-actions" aria-label="Acciones principales">
+          <a class="btn btn-primary" href="#confirmacion">Confirmar por WhatsApp</a>
+          <a class="btn btn-ghost" href="#ubicacion">Cómo llegar</a>
+        </nav>
+      </section>
+    </header>
+
+    <main id="contenido">
+      <section class="section horse-component reveal-v2" id="horseComponentV2">
+        <div class="shell horse-component-grid">
+          <div class="horse-stage" aria-hidden="true">
+            <span class="stage-landscape stage-landscape-sky"></span>
+            <span class="stage-landscape stage-landscape-mountains"></span>
+            <span class="stage-landscape stage-landscape-ground"></span>
+            <div class="horse-image-wrap">
+              <img class="horse-png" src="assets/caballo.png" alt="Caballo galopando" />
+              <span class="horse-shadow"></span>
+              <span class="horse-dust horse-dust-1"></span>
+              <span class="horse-dust horse-dust-2"></span>
+            </div>
+          </div>
+
+          <article class="glass-invite-card">
+            <h2>90 Años de Fulvio</h2>
+            <p>
+              Con el corazón agradecido a Dios por el don de la vida, la Familia Silván Cárdenas
+              le invita a acompañarnos en esta celebración tan significativa: los 90 años de nuestro
+              querido Fulvio.
+            </p>
+            <p>
+              Será una tarde para compartir recuerdos, abrazos, gratitud y alegría en familia.
+              Su presencia será un regalo invaluable y una bendición para este momento que atesoraremos
+              por siempre.
+            </p>
+            <p class="glass-quote">“Este es el día que hizo Jehová; nos gozaremos y alegraremos en él.” · Salmo 118:24</p>
+            <div class="glass-meta">
+              <span>28 de marzo · 1:00 PM</span>
+              <span>Casino Ganadero de Jalapa, Tabasco</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal-v2">
+        <div class="shell">
+          <figure class="cover-photo photo-card">
+            <picture>
+              <source srcset="assets/fulvio.webp" type="image/webp" />
+              <img src="assets/fulvio.webp" alt="Portada del festejo de Fulvio" loading="lazy" decoding="async" />
+            </picture>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section reveal-v2">
+        <div class="shell">
+          <article class="glass-card message-card">
+            <p>
+              Gracias por formar parte de nuestra historia.
+              Nos alegrará profundamente contar con usted en esta fecha tan especial.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal-v2" aria-labelledby="contador-title">
+        <div class="shell">
+          <h2 id="contador-title" class="visually-hidden">Cuenta regresiva</h2>
+          <div class="countdown" id="countdown" role="timer" aria-live="polite">
+            <div><span id="days">00</span><small>Días</small></div>
+            <div><span id="hours">00</span><small>Horas</small></div>
+            <div><span id="minutes">00</span><small>Min</small></div>
+            <div><span id="seconds">00</span><small>Seg</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal-v2" id="ubicacion">
+        <div class="shell">
+          <div class="details-grid">
+            <article class="detail-card">
+              <h3 class="detail-title">Fecha</h3>
+              <p class="detail-value" id="eventDateDetail">Sábado 28 de marzo de 2026</p>
+            </article>
+            <article class="detail-card">
+              <h3 class="detail-title">Hora</h3>
+              <p class="detail-value" id="eventTimeDetail">1:00 PM</p>
+            </article>
+            <article class="detail-card">
+              <h3 class="detail-title">Lugar</h3>
+              <p class="detail-value" id="eventLocationDetail">Casino Ganadero de Jalapa, Tabasco</p>
+            </article>
+            <article class="detail-card">
+              <h3 class="detail-title">Código de vestimenta</h3>
+              <p class="detail-value">Vaquero elegante · botas y sombrero</p>
+            </article>
+          </div>
+
+          <article class="card-lite map-card">
+            <iframe
+              id="mapFrame"
+              class="map-embed"
+              title="Ubicación del evento en Google Maps"
+              src="https://www.google.com/maps?q=Casino%20Ganadero%20de%20Jalapa%20Tabasco&z=14&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <a class="btn btn-primary" id="gpsButton" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/6hAVYmdvRXrTMk9J7">Abrir ruta en Google Maps</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal-v2" id="confirmacion">
+        <div class="shell">
+          <form class="rsvp" id="rsvpForm">
+            <label>Nombre completo
+              <input type="text" id="guestName" placeholder="Escribe tu nombre" required />
+            </label>
+            <label>No. de lugares asignados
+              <input type="number" id="assignedSeats" min="1" max="30" value="1" required />
+            </label>
+            <label>No. de personas que van asistir
+              <input type="number" id="attendingCount" min="0" max="30" value="1" required />
+            </label>
+            <label>Mensaje adicional (opcional)
+              <textarea id="extraMessage" rows="3" placeholder="Ejemplo: ¡Muchas gracias por la invitación! Nos vemos ese día."></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Enviar confirmación por WhatsApp</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section reveal-v2">
+        <div class="shell">
+          <ul class="tips">
+            <li>Le sugerimos llegar con 20 minutos de anticipación.</li>
+            <li>Contaremos con una zona de fotografía temática.</li>
+            <li>Será un evento familiar en un ambiente privado y seguro.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section reveal-v2 closing">
+        <div class="shell">
+          <figure class="family-photo">
+            <picture>
+              <source srcset="assets/silvanes.webp" type="image/webp" />
+              <img src="assets/silvanes.webp" alt="Familia Silván Cárdenas" loading="lazy" decoding="async" />
+            </picture>
+            <ul class="family-values" aria-label="Valores familiares">
+              <li>Amor</li>
+              <li>Fe</li>
+              <li>Unidad</li>
+              <li>Gratitud</li>
+              <li>Respeto</li>
+              <li>Bendición</li>
+            </ul>
+            <figcaption>Familia Silván Cárdenas</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section reveal-v2">
+      <div class="shell">
+        <p>Con aprecio, Familia Silván Cárdenas 🤠</p>
+      </div>
+    </footer>
+
+    <audio id="horseNeighAudio" preload="none"></audio>
+    <audio id="bgMusicAudio" preload="none" loop src="assets/nadie.mp3"></audio>
+
+    <div class="music-control" id="musicControl" aria-label="Control de música">
+      <button type="button" class="music-toggle" id="musicToggleBtn" aria-label="Pausar música">⏸</button>
+      <input
+        id="musicVolume"
+        class="music-volume"
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0.55"
+        aria-label="Volumen de música"
+      />
+    </div>
+
+    <script src="script-v2.js?v=20260225d"></script>
+  </body>
+</html>

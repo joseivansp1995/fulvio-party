@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' data: blob: http: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' http: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: http: https:; media-src 'self' data: blob: http: https:; connect-src 'self' data: blob: http: https: ws: wss:; frame-src 'self' http: https:;"
+    />
+    <title>Invitación 90 Años | Fulvio</title>
+    <meta
+      name="description"
+      content="Invitación digital para la celebración de los 90 años de Fulvio: información del evento, ubicación y confirmación por WhatsApp."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%90%8E%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Cinzel:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="grain"></div>
+
+    <header class="hero section">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <p class="badge">Gran Celebración</p>
+        <h1>Fulvio · 90 Años</h1>
+        <p class="hero-subtitle">
+          Nos honra invitarle a celebrar esta fecha tan especial en un ambiente de tradición,
+          alegría y gratitud.
+        </p>
+        <p class="hosts-inline">Anfitriones · Familia Silván Cárdenas</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#confirmacion">Confirmar por WhatsApp</a>
+          <a class="btn btn-ghost" href="#ubicacion">Cómo llegar</a>
+        </div>
+      </div>
+
+      <div class="horse-track" aria-hidden="true">
+        <span class="prairie-layer prairie-sky"></span>
+        <span class="prairie-layer prairie-hills"></span>
+        <span class="prairie-layer prairie-grass"></span>
+        <div class="runner runner-1">
+          <img class="runner-horse" src="assets/caballo.png" alt="" />
+          <span class="dust"></span>
+        </div>
+        <div class="runner runner-2">
+          <img class="runner-horse" src="assets/caballo.png" alt="" />
+          <span class="dust"></span>
+        </div>
+        <div class="runner runner-3">
+          <img class="runner-horse" src="assets/caballo.png" alt="" />
+          <span class="dust"></span>
+        </div>
+        <div class="runner runner-4">
+          <img class="runner-horse" src="assets/caballo.png" alt="" />
+          <span class="dust"></span>
+        </div>
+        <div class="runner runner-5">
+          <img class="runner-horse" src="assets/caballo.png" alt="" />
+          <span class="dust"></span>
+        </div>
+      </div>
+
+      <div class="scroll-hint">Deslice para continuar ↓</div>
+    </header>
+
+    <main>
+      <section class="section horse-component" id="horseComponent">
+        <div class="container reveal horse-component-grid">
+          <div class="horse-stage" id="horseParallaxStage" aria-hidden="true">
+            <span class="stage-landscape stage-landscape-sky"></span>
+            <span class="stage-landscape stage-landscape-mountains"></span>
+            <span class="stage-landscape stage-landscape-ground"></span>
+            <div class="horse-image-wrap" id="horseParallaxGroup">
+              <img
+                id="horsePng"
+                class="horse-png"
+                src="assets/caballo.png"
+                alt="Caballo galopando"
+              />
+              <span class="horse-shadow"></span>
+              <span class="horse-dust horse-dust-1"></span>
+              <span class="horse-dust horse-dust-2"></span>
+            </div>
+          </div>
+
+          <article class="glass-invite-card">
+            <h2>90 Años de Fulvio</h2>
+            <p>
+              Con el corazón agradecido a Dios por el don de la vida, la Familia Silván Cárdenas
+              le invita a acompañarnos en esta celebración tan significativa: los 90 años de nuestro
+              querido Fulvio.
+            </p>
+            <p>
+              Será una tarde para compartir recuerdos, abrazos, gratitud y alegría en familia.
+              Su presencia será un regalo invaluable y una bendición para este momento que atesoraremos
+              por siempre.
+            </p>
+            <p class="glass-quote">“Este es el día que hizo Jehová; nos gozaremos y alegraremos en él.” · Salmo 118:24</p>
+            <div class="glass-meta">
+              <span>28 de marzo · 1:00 PM</span>
+              <span>Casino Ganadero de Jalapa, Tabasco</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container reveal">
+          <figure class="cover-photo">
+            <img
+              src="assets/fulvio.webp"
+              alt="Portada del festejo de Fulvio"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container reveal">
+          <article class="card message-card">
+            <p>
+              Gracias por formar parte de nuestra historia.
+              Nos alegrará profundamente contar con usted en esta fecha tan especial.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container reveal">
+          <div class="countdown" id="countdown">
+            <div class="time-card"><span id="days">00</span><small>Días</small></div>
+            <div class="time-card"><span id="hours">00</span><small>Horas</small></div>
+            <div class="time-card"><span id="minutes">00</span><small>Minutos</small></div>
+            <div class="time-card"><span id="seconds">00</span><small>Segundos</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container reveal">
+          <div class="grid">
+            <article class="card">
+              <h3>Fecha</h3>
+              <p id="eventDateText">Sábado 28 de marzo de 2026</p>
+            </article>
+            <article class="card">
+              <h3>Hora</h3>
+              <p id="eventTimeText">1:00 PM</p>
+            </article>
+            <article class="card">
+              <h3>Lugar</h3>
+              <p id="eventLocationText">Casino Ganadero de Jalapa, Tabasco</p>
+            </article>
+            <article class="card">
+              <h3>Código de vestimenta</h3>
+              <p>Vaquero elegante · botas y sombrero</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="ubicacion">
+        <div class="container reveal">
+          <div class="map-wrap">
+            <iframe
+              id="mapFrame"
+              title="Mapa del evento"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Casino%20Ganadero%20de%20Jalapa%20Tabasco&z=14&output=embed"
+            ></iframe>
+          </div>
+          <div class="map-actions">
+            <a
+              class="btn btn-primary"
+              id="gpsButton"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps?q=Casino%20Ganadero%20de%20Jalapa%20Tabasco"
+              >Abrir ruta en Google Maps</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="confirmacion">
+        <div class="container reveal">
+          <form class="rsvp-form" id="rsvpForm">
+            <label>
+              Nombre completo
+              <input type="text" id="guestName" placeholder="Escribe tu nombre" required />
+            </label>
+            <label>
+              Acompañantes
+              <input type="number" id="companions" min="0" max="10" value="0" />
+            </label>
+            <label>
+              Mensaje adicional (opcional)
+              <textarea id="extraMessage" rows="3" placeholder="Ejemplo: Llegaré después de las 2:00 p.m."></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Enviar confirmación por WhatsApp</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container reveal">
+          <ul class="tips">
+            <li>Le sugerimos llegar con 20 minutos de anticipación.</li>
+            <li>Contaremos con una zona de fotografía temática.</li>
+            <li>Será un evento familiar en un ambiente privado y seguro.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section closing-family">
+        <div class="container reveal">
+          <figure class="closing-photo">
+            <img src="assets/silvanes.webp" alt="Familia Silván Cárdenas" />
+            <div class="family-values" aria-hidden="true">
+              <span>Amor</span>
+              <span>Fe</span>
+              <span>Unidad</span>
+              <span>Gratitud</span>
+              <span>Respeto</span>
+              <span>Bendición</span>
+            </div>
+            <figcaption>Familia Silván Cárdenas</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="container reveal">
+        <p>Con aprecio, Familia Silván Cárdenas 🤠</p>
+      </div>
+    </footer>
+
+    <audio id="horseNeighAudio" preload="none"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
